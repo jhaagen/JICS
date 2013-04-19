@@ -1,0 +1,451 @@
+
+/* site background & default text color */
+body {
+  background-color: #fff;
+  color: #000;
+ }
+
+/* default font for site */
+body * {
+  font-family: verdana, arial, sans-serif;
+  }
+
+/* Generic link style */
+a,
+a:link,
+a:visited {
+  color: #00f;
+  }
+a:hover {
+  color: #f00;
+  }
+
+/***********************************************************  Masthead (hooks up to custom HTML from siteheader.htm) ******************************************************/
+#masthead {
+  background: #000 url(images/usf_portal_rt.gif) top right no-repeat;
+  height: 48px; /* match image hight */
+  margin: 0;
+  padding: 0;
+  min-width: 760px;
+  }
+#masthead a,
+#masthead a:link,
+#masthead a:visited {
+  display: block;
+  cursor: pointer;
+  height: 100%;
+  width: 400px;
+  }
+#masthead h1 {
+  text-indent: -9999px;
+  background: transparent url(images/logo_usf.gif) top left no-repeat;
+  height: 48px; /* match image height */
+  width: 760px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+
+/* mobile banner - hide on desktop - media query at bottom of page */
+#mobile-notification {
+	display:none;
+  }
+
+/* style of error message */
+#errorMessage {
+	color:#FF3333;
+	float:right;
+	margin:-120px 0 0 0!important;
+	max-width:600px;
+  }
+
+/***************************************************** Welcome back / Login Bar *******************************************************************************************/
+/* background & text color */
+#welcomeBackBar {
+  color: #fff;
+  background-color: #252875;
+  }
+/* Link text color */
+#welcomeBackBar a,
+#welcomeBackBar a:link,
+#welcomeBackBar a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
+  }
+#welcomeBackBar a:hover {
+  text-decoration: underline;
+  }
+/* username & password text boxes */
+#welcomeBackBar input {
+  background-color: #fff;
+  }
+
+
+
+/************************************************ General Portlet elements ************************************************/
+
+/* Portlet SubHEaders */
+h4 {
+  background-color: #bacbdd;
+  color: #000;
+  }
+
+/* small section at the bottom of the admin portlets with "Exit" button in it */
+.pActions {
+  background-color: #ddd;
+  }
+
+/* text sections above input fields giving info about the form fields (default small grey background) */ 
+.hint {
+  background-color: #eee;
+  }
+
+/* used for odd (alternating) rows in a grid of list */
+.alt {
+  background-color: #efefef;
+  }
+
+/* a Highlighted row in a grid or list (can be more than 1 per gird or list) */
+.highlighted {
+  background-color: #FFFED8;
+  }
+
+/* a selected row in a grid or list (only 1 per grid or list) */
+.selected {
+  background-color: #FFFED8;
+  }
+
+/* Site Errors */
+div.oops {
+  border: 1px solid red;
+  background-color: #fcc;
+  }
+
+/* collapseable panel */
+div.cp div.cpHead {
+  background-color: #ddd;
+  }
+
+/* fix for bullets in retention portlet */
+.wysiwygtext li {
+	list-style: inherit;
+  }
+
+
+/********************************************************* Tabs & Breadcrumbs **************************************************************************************/
+/* tab background color */
+#headerTabs li {
+background: #769BC5;
+border-color: #769BC5;
+}
+
+/* selected tab background color */
+#headerTabs li.selected {
+background: #efefef;
+}
+
+/* tab link style  */
+#headerTabs li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* selected tab link style  */
+#headerTabs .selected a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* tab hover style  */
+#headerTabs li a:hover {
+  text-decoration: underline;
+  color: #FFFF66;}
+
+/* selected tab hover style  */
+#headerTabs li.selected a:hover {
+  text-decoration: none;
+  color: #000;}
+
+/* breadcrumb background color - should be the same color as the selected tab background color */
+#mainCrumbs {
+  background: #efefef;
+  }
+
+
+/******************************************************** START Side Bar ***********************************************************************/
+
+/* border & background for sidebar sections */
+#sideBar div.sideSection {
+  border-color: #70899F;
+  background-color: #F5F5F5;
+  }
+
+/* main sidebar headers */
+#sideBar h2,
+#sideBar h2 a,
+#sideBar h2 a:link,
+#sideBar h2 a:visited {
+  color: #fff;
+  text-decoration: none;
+  background-color: #70899F;
+}
+/* hover style for main headers that are links */
+#sideBar h2 a:hover {
+  text-decoration: underline;
+}
+
+/* second level sidebar headers */
+#sideBar h3,
+#sideBar h3 a,
+#sideBar h3 a:link,
+#sideBar h3 a:visited {
+  color: #000;
+  text-decoration: none;
+  background-color: #d2d2d2;
+}
+/* hover style for second level headers that are links */
+#sideBar h3 a:hover {
+  text-decoration: underline;
+}
+
+/* spacer between related pages and contexts */
+#sideBar hr {
+  color: #d2d2d2;
+  }
+
+/* regualr side bar link style */
+#sideBar a,
+#sideBar a:link,
+#sideBar a:visited {
+  color: #00f;
+  }
+#sideBar a:hover {
+  color: #f00;
+  }
+
+/* style for add a page link */
+#sideBar .addPage a,
+#sideBar .addPage a:link,
+#sideBar .addPage a:visited {
+  color: #000;
+  }
+#sideBar .addPage a:hover {
+  color: #f00;
+  }
+
+/* sidebar quick links border */
+#sideBar div#quickLinks {
+  border-color: #6C9CD4;
+  }
+
+
+
+
+/********************************************************************* Site Footer*******************************************************************/
+
+/* site footer  */
+#foot {
+  background-color: #eee;
+  color: #000;
+  }
+/* footer link styles */
+#foot a,
+#foot a:link,
+#foot a:visited {
+}
+
+
+
+/********************************************* portlet header, color, border etc ***************************************************************************/
+
+/* portlet header text color & background color */
+.pHead,
+.pHead a,
+.pHead a:link,
+.pHead a:visited {
+  color: #fff;
+  background: #1D50AA; 
+  }
+/* name of portlet when the portlet can be maximized */
+.pHead a,
+.pHead a:link,
+.pHead a:visited {
+  text-decoration: underline;
+  }
+.pHead a:hover {
+  text-decoration: none;
+  }
+/* shortcut tag styling */
+.pShortcut {
+  border-color: #000;
+  display:none;
+}
+.pShortcut a,
+.pShortcut a:link,
+.pShortcut a:visited {
+  color: #000;
+  text-decoration: none;
+  }
+.pShortcut a:hover {
+  text-decoration: underline;
+  }
+/* border & background for the portlets */
+.portlet {
+  border: solid 1px #7C7C7C;
+  background: #fff;
+  line-height: 1.2;
+  }
+div.tabGroup ul.tabHeaders li,
+.securityGrid table thead th,
+.groupedGrid thead td,
+.groupedGrid thead th,
+.groupedGrid tbody.ghead tr td,
+.groupedGrid tbody.gfoot tr td { 
+  border-color: #fff !important; /* match portlet background color (leave "!important" in there)*/
+  }
+
+
+/**************************************************** grids ************************************************************************************/
+/* grouped grid header style 
+.groupedGrid tfoot td,
+.groupedGrid tfoot th,
+.groupedGrid thead td,
+.groupedGrid thead th,
+.groupedGrid tbody th,
+.groupedGrid tbody.ghead tr td,
+.groupedGrid tbody.gfoot tr td { 
+  background-color: #ddd;
+  }
+/* sub header for a grouping 
+.groupedGrid tbody.gsubhead tr td {
+  border-bottom: solid 1px #eee;
+  }
+/* table level header and footer 
+.groupedGrid tbody.ghead tr td,
+.groupedGrid tbody.gfoot tr td { 
+  background-color: #ccc;
+  }
+/* second level grouping headers 
+.groupedGrid tr.subGroup td {
+  border-bottom: solid 1px #000;
+  }
+/* grid header sort links 
+.groupedGrid th a,
+.groupedGrid th a:link,
+.groupedGrid th a:visited {
+  color: #000;
+  }
+.groupedGrid th a:hover {
+  color: #666;
+  }
+/* END GroupedDataGrid Styles 
+
+
+/* START DateRangeEdit Styles 
+.dateRangeEdit div.opt a, 
+.dateRangeEdit div.opt a:link, 
+.dateRangeEdit div.opt a:visited {
+  text-decoration: none;
+  color: #000;
+  }
+.dateRangeEdit div.opt a:hover {
+  color: #666;
+  }
+.dateRangeEdit div.opt label:hover {
+  color: #666;
+  }
+/* END DateRangeEdit */
+
+/********************************************************************* Portlet Tabs ************************************************************************/
+
+/* tab bar & inactive tab background color */
+div.tabGroup ul.tabHeaders,
+div.tabGroup ul.tabHeaders a,
+div.tabGroup ul.tabHeaders a:link,
+div.tabGroup ul.tabHeaders a:visited {
+  color: #000;
+  background-color: #ddd;
+  }
+
+/* selected tab */
+div.tabGroup ul.tabHeaders li.selected a,
+div.tabGroup ul.tabHeaders li.selected a:link,
+div.tabGroup ul.tabHeaders li.selected a:visited,
+div.tabGroup ul.tabHeaders li.selected a:hover {
+  background-color: #fff;
+  }
+
+/* tab hover */
+div.tabGroup ul.tabHeaders a:hover {
+  background-color: #eee;
+  }
+
+
+/************************************************************** Security Grid ******************************************************************************/
+
+/* START Securtity Grid */
+.securityGrid h5 {
+  background-color: #ddd;
+  }
+.securityGrid table thead th {
+  background-color: #ddd;
+  }
+.securityGrid table thead th.kids {
+  background-color: #7686AC;
+  color: #fff;
+  }
+.securityGrid table th.admin {
+  color: #fff;
+  background-color: #000;
+  }
+.securityGrid table tbody td.admin {
+  background-color: #DAE3F2;
+  }
+.securityGrid table tbody .alt td.admin {
+  background-color: #C4D2EA;
+  }
+/* END Securtity Grid */
+
+/* background for context list in user/role selector */
+.principalSelector .roles tbody th,
+.principalSelector .users tbody th {
+  background-color: #ddd;
+  }
+.principalSelector td.contextTree {
+  background-color: #ddd;
+  }
+
+
+
+/************************************************ portlet drop down menu ************************************************************/
+.pToolbar,
+.pToolbar ul,
+.pToolbar a,
+.pToolbar a:link,
+.pToolbar a:visited,
+.pToolbar .pTool,
+.pToolbar .menu a.hasKids,
+.pToolbar .menu a,
+.pToolbar .menu a:link,
+.pToolbar .menu a:visited {
+  background-color: #4870AC;
+  border-color: #fff;
+  color: #fff;
+  } 
+/* active/hover menu sylte (do not remove "!important") */
+.pToolbar a:hover,
+.pToolbar a.active,
+.pToolbar .pTool a:hover,
+.pToolbar .pTool a.active {
+  color: #fff !important;
+  background-color: #3366cc !important;
+  }
+  
+@media screen and (max-width: 640px) {
+	#mobile-notification {background:#F90; padding:6px; width:100%; display:block!important; margin-top:-25px;}
+	#mobile-notification a {text-decoration:none; color:#fff;}	
+	#mobile-notification p {margin:0 0 0 20px;}
+	
+}
